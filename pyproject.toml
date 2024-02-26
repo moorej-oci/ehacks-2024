@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ehacks-2024"
+version = "0.1.0"
+description = ""
+authors = ["moorej <moorej@objectcomputing.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.1.8"
+beautifulsoup4 = "^4.12.3"
+chromadb = "^0.4.22"
+langchain-openai = "^0.0.6"
+python-dotenv = "^1.0.1"
+langchainhub = "^0.1.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
